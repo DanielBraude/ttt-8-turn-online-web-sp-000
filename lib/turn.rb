@@ -19,6 +19,6 @@ board[index] == "X" || board[index] == "O"
 end
 
 def move(board, position, char="X")
-  board[position] == char
+  board[position] = char
 
 end
