@@ -1,4 +1,5 @@
 def display_board(board)
+<<<<<<< HEAD
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
   puts " #{board[3]} | #{board[4]} | #{board[5]} "
@@ -33,4 +34,7 @@ def turn(board)
     puts "Not a valid move"
     turn(board)
   end
+=======
+
+>>>>>>> 6ceabc473dc5e096775274b8cd19ca0aee3c87d0
 end
