@@ -22,6 +22,6 @@ def move(board, position, char="X")
   board[position] = char
 end
 
-def turn
+def turn(board)
 
 end
